@@ -9,7 +9,8 @@ app.use(cookieParser())
 app.use(cors({
     origin: [
     "http://localhost:5173",
-    "https://vercel-frontend-gqiaaml90-ravi-darwai-s-projects.vercel.app"
+    "https://vercel-frontend-gqiaaml90-ravi-darwai-s-projects.vercel.app",
+    "https://vercel-frontend-one-flax.vercel.app"
   ],
     credentials: true
 }))
